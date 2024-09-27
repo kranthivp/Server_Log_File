@@ -14,19 +14,20 @@ The goal is to ensure extracted data is clean, accurate and accessible for furth
 
 Step 1:-  From the given url the data is loaded into Colab notebook.
 
-  'https://drive.google.com/file/d/13qr0NacvjeqC1jPESa8A3ViFY8XtEQAb/view'  
+     'https://drive.google.com/file/d/13qr0NacvjeqC1jPESa8A3ViFY8XtEQAb/view'  
 
 Step 2:-  Script to download the text file from local.
 
-  'Text_File=open('/content/mbox.txt','r').read()'
+     'Text_File=open('/content/mbox.txt','r').read()'
 
 Step 3:-  Using Regular expression all email addresses along with their corresponding date and time are retrieved.
 
 Step 4:-  script used to retrieve the data.
 
- import re
- pattern = 'From([\s][a-z0-9]+[\.]?[a-z0-9]+[\@][a-z]+[\.]?[a-z]+[\.]?[a-z]+[\.]?[a-z]+[\s]+[a-zA-Z]+[\s]+[a-zA-Z]+[\s]+\d+[\s]+\d+[\:]\d+[\:]\d+[\s]+\d+)'
- match = re.findall(pattern,Text_File)
+     import re
+     pattern = 'From([\s][a-z0-9]+[\.]?[a-z0-9]+[\@][a-z]+[\.]?[a-z]+[\.]?[a-z]+[\.]?[a-z]+[\s]+[a-zA-Z]+[\s]+[a-zA-Z]+ 
+               [\s]+\d+[\s]+\d+[\:]\d+[\:]\d+[\s]+\d+)'
+     match = re.findall(pattern,Text_File)
 
 step 5:-  Ensured the extracted data is in structured format suitable for database insertion.
 
@@ -34,7 +35,7 @@ Step 6:-  Format of the date is converted into a standard format (e.g., YYYY-MM-
 
 Step 7:-  Pymongo installation 
 
-  !python -m pip install "pymongo[srv]"
+    !python -m pip install "pymongo[srv]"
   
 Step 8:-  The processed data is saved into a MongoDB collection with name user_history.
 
@@ -43,7 +44,7 @@ step 9:-  Data is fetched back from MongoDB collection into dataframe.
 Step 10:- sqlalchemy installation
 
      # installing sqlalchemy to convert DataFrame into Database table
-       !pip install sqlalchemy
+     !pip install sqlalchemy
        
 Step 11:- Data is uploaded to a relational database(SQLite) using python code.
 
@@ -55,9 +56,9 @@ Step 13:- Streamlit installation.
 
 Step 14:- Localtunnel installation.
 
-       !npm install -g localtunnel
+      !npm install -g localtunnel
 
-Step 15:- sql queries are executed on the database and output is shown in streamlit
+Step 15:- sql queries are executed and output is shown in streamlit
 
 
 
