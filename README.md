@@ -20,7 +20,8 @@ Step 2:-  Script to download the text file from local.
 
   'Text_File=open('/content/mbox.txt','r').read()'
 
-Step 3:-  Using Regular expression all email addresses along with their correspondins date and time is retrieved.
+Step 3:-  Using Regular expression all email addresses along with their corresponding date and time is retrieved.
+
 Step 4:-  script used to retrieve the data.
 
  import re
