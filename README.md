@@ -6,8 +6,8 @@ https://colab.research.google.com/drive/1ofH5dJs7KB2IoE8UwApMnm1ChZ87Vpmn#scroll
 
 ## Problem Statement
 
-The task is to fetch data from a server log file, extract all email addresses along   
-with their corresponding dates and upload this data into a user history database.
+The task is to fetch the data from a server log file, extract all the email addresses along   
+with their corresponding dates and upload the data into a user history database.
 The goal is to ensure extracted data is clean, accurate and accessible for further analysis and historical tracking.
 
 ## Steps followed
@@ -29,25 +29,31 @@ Step 4:-  script used to retrieve the data.
  match = re.findall(pattern,Text_File)
 
 step 5:-  Ensured the extracted data is in structured format suitable for database insertion.
+
 Step 6:-  Format of the date is converted into a standard format (e.g., YYYY-MM-DD HH:MM:SS).
+
 Step 7:-  Pymongo installation 
 
   !python -m pip install "pymongo[srv]"
   
 Step 8:-  The processed data is saved into a MongoDB collection with name user_history.
+
 step 9:-  Data is fetched back from MongoDB collection into dataframe.
+
 Step 10:- sqlalchemy installation
 
      # installing sqlalchemy to convert DataFrame into Database table
        !pip install sqlalchemy
        
-Step 11:- Data is uploaded to a relational database(SQLite) using python code..
+Step 11:- Data is uploaded to a relational database(SQLite) using python code.
+
 Step 12:- The table is named user_history.
-Step 13:- Streamlit installation
+
+Step 13:- Streamlit installation.
 
       !pip install streamlit
 
-Step 14:- Localtunnel installation
+Step 14:- Localtunnel installation.
 
        !npm install -g localtunnel
 
