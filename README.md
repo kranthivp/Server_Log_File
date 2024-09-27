@@ -20,7 +20,7 @@ Step 2:-  Script to download the text file from local.
 
   'Text_File=open('/content/mbox.txt','r').read()'
 
-Step 3:-  Using Regular expression all email addresses along with their corresponding date and time is retrieved.
+Step 3:-  Using Regular expression all email addresses along with their corresponding date and time are retrieved.
 
 Step 4:-  script used to retrieve the data.
 
@@ -30,7 +30,7 @@ Step 4:-  script used to retrieve the data.
 
 step 5:-  Ensured the extracted data is in structured format suitable for database insertion.
 
-Step 6:-  Format of the date is converted into a standard format (e.g., YYYY-MM-DD HH:MM:SS).
+Step 6:-  Format of the date is converted into a standard format (e.g., YYYY-MM-DD).
 
 Step 7:-  Pymongo installation 
 
