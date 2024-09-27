@@ -57,7 +57,7 @@ Step 14:- Localtunnel installation.
 
        !npm install -g localtunnel
 
-Step 15:- sql queries are run on the database and output is shown in streamlit
+Step 15:- sql queries are executed on the database and output is shown in streamlit
 
 
 
