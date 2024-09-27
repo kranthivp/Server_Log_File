@@ -6,10 +6,9 @@ https://colab.research.google.com/drive/1ofH5dJs7KB2IoE8UwApMnm1ChZ87Vpmn#scroll
 
 ## Problem Statement
 
-The task is to fetch data from a server log file, extract all email addresses along with their  
-corresponding dates and upload this data into a user history database. The goal is to ensure 
-extracted data is clean, 
-accurate and accessible for further analysis and historical tracking.
+The task is to fetch data from a server log file, extract all email addresses along   
+with their corresponding dates and upload this data into a user history database.
+The goal is to ensure extracted data is clean, accurate and accessible for further analysis and historical tracking.
 
 ## Steps followed
 
