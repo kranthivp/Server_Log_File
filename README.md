@@ -1,8 +1,9 @@
 # Server_Log_File
 
-## Notebook Link
+## Description
 
-https://colab.research.google.com/drive/1ofH5dJs7KB2IoE8UwApMnm1ChZ87Vpmn#scrollTo=dxSNJXfUmHPz
+Server log files are a raw and unfiltered. They’re text files stored on web server. Every time any browser or user-agent, 
+requests any resource—pages, images, javascript files, etc. from server, the server adds a line in the log.
 
 ## Problem Statement
 
