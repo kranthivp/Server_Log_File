@@ -3,7 +3,7 @@
 ## Description
 
 Server log files are a raw and unfiltered. They’re text files stored on web server. Every time any browser or user-agent, 
-requests any resource—pages, images, javascript files, etc. from server, the server adds a line in the log.
+requests any resource pages, images, javascript files, etc. from server, the server adds a line in the log.
 
 ## Problem Statement
 
